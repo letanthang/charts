@@ -1,0 +1,24 @@
+apiVersion: v1
+entries:
+  foochart:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2022-12-29T11:49:17.100133416+07:00"
+    description: A Helm chart for Kubernetes
+    digest: b3128d7f52080042b43e6cc7d306f3874fc73a34138b07f09778b3a6017ba311
+    name: foochart
+    type: application
+    urls:
+    - https://letanthang.github.io/charts/foochart-0.1.1.tgz
+    version: 0.1.1
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2022-12-29T11:49:17.098631771+07:00"
+    description: A Helm chart for Kubernetes
+    digest: 7fb4c8cb7429b6c67ac393a752f848d7f076736fa9743a5488636923da89c62a
+    name: foochart
+    type: application
+    urls:
+    - https://letanthang.github.io/charts/foochart-0.1.0.tgz
+    version: 0.1.0
+generated: "2022-12-29T11:49:17.096346736+07:00"
