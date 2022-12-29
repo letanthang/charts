@@ -1,0 +1,14 @@
+project: default
+source:
+  repoURL: 'https://letanthang.github.io/charts/'
+  targetRevision: 0.1.1
+  chart: mychart
+destination:
+  server: 'https://kubernetes.default.svc'
+  namespace: fooapp
+syncPolicy:
+  automated:
+    prune: true
+    selfHeal: true
+  syncOptions:
+    - CreateNamespace=true
